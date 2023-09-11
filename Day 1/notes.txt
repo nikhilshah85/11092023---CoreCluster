@@ -1,0 +1,73 @@
+Collections and Genericrs
+
+Collections : When you wish to store data in a single variable
+			and then perform, Insert, upadte, delete, sort, filter, calculate etc.... all with the single variable
+
+
+	Types of collections
+		Array
+		ArrayList
+		List
+		HashTable
+		Dictionary
+
+		create our custom collection
+
+
+		Array - this can store primitive data as well as object
+			Disadvantages :
+				a. We have to define/initialize the size.
+					-- we cannot add more values excedding the size declared
+						eg. int[] favNumers = new int[10];
+							we cannot store more than 10 values here
+					-- if we store less value, we will waste the memory
+						int[] favNumers = new int[10];		
+							if u store only 3 values, we are wasteing 7 * 4 bytes of integer space
+
+				b. we can store only same data type
+					int[] favNumers = new int[10]; 
+				we cannot store string or bool 
+					however, for end user TEN is also a number 
+
+
+
+		ArrayList : is another collection, here you do not need to worry about size or datatype
+			Disadvantages : This is not strongly types
+					everytime a value is accessed - runtime has to perform, boxing and unboxing
+					This is a major performance issue when collection grows
+
+		List : is a Generic Collection - Generic collection are strongly typed and do not require boxing and unboxing
+			-- This will store as many values as you want to 
+			-- This will store only specific data type
+			-- Also know templates in C++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+			
+			
