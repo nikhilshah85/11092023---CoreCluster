@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "hashTable_and_dictionary/1.0.0": {
+        "runtime": {
+          "hashTable_and_dictionary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "hashTable_and_dictionary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

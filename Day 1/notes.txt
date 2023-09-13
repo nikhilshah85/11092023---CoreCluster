@@ -41,6 +41,52 @@ Collections : When you wish to store data in a single variable
 			-- This will store only specific data type
 			-- Also know templates in C++
 
+			Drawbacks -
+			-- it can allow duplicate entry 
+
+			Thus below collections are a key and a value pair 
+				Key is a unique value and value could be anything
+
+				2 types 
+				Hashtable (key and value) - same problem like Array list - not strongly typed and thus needs boxing and unbox
+				Dictionary (key and value) - Strongly typed like list
+
+
+		HashTable
+			Although it is untyped / not strongly typed, it is still used on high scale
+			example, reading an excel file
+			example, reading data from MongoDB
+
+		Dictionary
+
+		FileIO 
+
+
+		Collections and FileIO saves almost 60% of the cost of project compared to working with Databases
+			Note : suitable for mid size applications not for enterprise applications like banks or airlines
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
